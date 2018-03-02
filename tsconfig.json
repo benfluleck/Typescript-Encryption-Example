@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "dist",
+    "baseUrl": "./src",
+    "paths": {
+      "crypto-js": ["node_modules/@types/crypto-js/index.d.ts"],
+      "dotenv": ["node_modules/@types/dotenv/index.d.ts"]
+    }
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
